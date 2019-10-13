@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f154ca9d2be84ce89a4a699589d34b1, type: 3}
+  m_Name: Cube
+  m_EditorClassIdentifier: 
+  edges:
+  - a: {x: -0.5, y: -0.5, z: -0.5}
+    b: {x: -0.5, y: -0.5, z: 0.5}
+  - a: {x: -0.5, y: -0.5, z: 0.5}
+    b: {x: 0.5, y: -0.5, z: 0.5}
+  - a: {x: 0.5, y: -0.5, z: 0.5}
+    b: {x: 0.5, y: -0.5, z: -0.5}
+  - a: {x: 0.5, y: -0.5, z: -0.5}
+    b: {x: -0.5, y: -0.5, z: -0.5}
+  - a: {x: -0.5, y: 0.5, z: -0.5}
+    b: {x: -0.5, y: 0.5, z: 0.5}
+  - a: {x: -0.5, y: 0.5, z: 0.5}
+    b: {x: 0.5, y: 0.5, z: 0.5}
+  - a: {x: 0.5, y: 0.5, z: 0.5}
+    b: {x: 0.5, y: 0.5, z: -0.5}
+  - a: {x: 0.5, y: 0.5, z: -0.5}
+    b: {x: -0.5, y: 0.5, z: -0.5}
+  - a: {x: -0.5, y: -0.5, z: -0.5}
+    b: {x: -0.5, y: 0.5, z: -0.5}
+  - a: {x: -0.5, y: -0.5, z: 0.5}
+    b: {x: -0.5, y: 0.5, z: 0.5}
+  - a: {x: 0.5, y: -0.5, z: 0.5}
+    b: {x: 0.5, y: 0.5, z: 0.5}
+  - a: {x: 0.5, y: -0.5, z: -0.5}
+    b: {x: 0.5, y: 0.5, z: -0.5}
+  faces:
+  - edgeIndices: 00000000010000000200000003000000
+  - edgeIndices: 04000000050000000600000007000000
+  - edgeIndices: 08000000040000000900000000000000
+  - edgeIndices: 09000000050000000a00000001000000
+  - edgeIndices: 0a000000020000000b00000006000000
+  - edgeIndices: 0300000008000000070000000b000000
